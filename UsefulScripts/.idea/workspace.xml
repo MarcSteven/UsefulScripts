@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b47c5379-422e-4477-b29b-06ef11954469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changed_file.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compress.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_to_xml.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_split.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_duplicates.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_file.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fix_filename.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_information.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/join_file.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kill_progress.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redirect_stdout.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resize_photo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby_grep.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/watermark_photo.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcodeproj/project.xcworkspace/xcuserdata/MarcZhao.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/AppDelegate/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/MemoryChain.xcdatamodeld/.xccurrentversion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/MemoryChain.xcdatamodeld/MemoryChain.xcdatamodel/contents" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/Resources/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChain/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChainTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChainTests/MemoryChainTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChainUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/MemoryChainUITests/MemoryChainUITests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/Pods-MemoryChain.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/Pods-MemoryChainTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/RxBlocking.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/RxCocoa.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/RxRelay.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/RxSwift.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/RxTest.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Pods.xcodeproj/xcuserdata/MarcZhao.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/AtomicInt.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/DataStructures/Bag.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/DataStructures/InfiniteSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/DataStructures/PriorityQueue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/DataStructures/Queue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/DispatchQueue+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/Platform.Darwin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/Platform.Linux.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/Platform/RecursiveLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/RxBlocking/BlockingObservable+Operators.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/RxBlocking/BlockingObservable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/RxBlocking/ObservableConvertibleType+Blocking.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/RxBlocking/Resources.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxBlocking/RxBlocking/RunLoopLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/DataStructures/Bag.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/DataStructures/InfiniteSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/DataStructures/PriorityQueue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/DataStructures/Queue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/DispatchQueue+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/Platform.Darwin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/Platform.Linux.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/Platform/RecursiveLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/Binder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/ControlTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/DelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/DelegateProxyType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/KeyPathBinder.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/NSLayoutConstraint+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/Observable+Bind.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/RxCocoaObjCRuntimeError+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/RxTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/SectionedViewDataSourceType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Common/TextInput.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Deprecated.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable+CoreGraphics.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable+Swift.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/Logging.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx+RawRepresentable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/NotificationCenter+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Foundation/URLSession+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/_RX.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/_RXDelegateProxy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/_RXKVOObserver.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/_RXObjCRuntime.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/RxCocoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/RxCocoa.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/ControlEvent.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/ControlProperty.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/BehaviorRelay+Driver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/ControlEvent+Driver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/ControlProperty+Driver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/Driver+Subscription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/Driver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/ObservableConvertibleType+SharedSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SchedulerType+SharedSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence+Operators+arity.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence+Operators.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Signal/ControlEvent+Signal.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Signal/PublishRelay+Signal.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Signal/Signal+Subscription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/Traits/Signal/Signal.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxPickerViewAdapter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Events/ItemEvents.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/NSTextStorage+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxCollectionViewDataSourceType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxPickerViewDataSourceType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDataSourcePrefetchingProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDataSourceProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDataSourcePrefetchingProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxWebViewDelegateProxy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIActivityIndicatorView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIAlertAction+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIApplication+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIBarButtonItem+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIButton+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UICollectionView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIControl+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIDatePicker+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIGestureRecognizer+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIImageView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UILabel+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UINavigationController+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UINavigationItem+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIPageControl+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIPickerView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIProgressView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIRefreshControl+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIScrollView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UISearchBar+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UISearchController+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UISegmentedControl+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UISlider+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIStepper+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UISwitch+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITabBar+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITabBarController+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITabBarItem+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITableView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITextField+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UITextView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIViewController+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/iOS/UIWebView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSButton+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSControl+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSImageView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSSlider+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSTextField+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSTextView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxCocoa/RxCocoa/macOS/NSView+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/RxRelay/BehaviorRelay.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/RxRelay/Observable+Bind.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/RxRelay/PublishRelay.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxRelay/RxRelay/Utils.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/AtomicInt.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/DataStructures/Bag.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/DataStructures/Queue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/DispatchQueue+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/Platform.Darwin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/Platform.Linux.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/Platform/RecursiveLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/AnyObserver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Cancelable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/Lock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ConnectableObservableType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Date+Dispatch.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Deprecated.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/Disposables.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Errors.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Event.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Extensions/String+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/GroupedObservable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ObservableType+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ObservableType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/AddRef.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Amb.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/AsMaybe.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/AsSingle.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Buffer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Catch.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/CombineLatest.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/CompactMap.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Concat.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Create.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Debounce.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Debug.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Deferred.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Delay.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Dematerialize.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Do.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/ElementAt.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Empty.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Enumerated.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Error.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Filter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/First.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Generate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/GroupBy.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Just.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Map.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Materialize.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Merge.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Multicast.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Never.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/ObserveOn.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Optional.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Producer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Range.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Reduce.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Repeat.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/RetryWhen.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Sample.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Scan.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Sequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/SingleAsync.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Sink.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Skip.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/SkipUntil.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/SkipWhile.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/StartWith.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Switch.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Take.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/TakeLast.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/TakeUntil.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/TakeWhile.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Throttle.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Timeout.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Timer.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/ToArray.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Using.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Window.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Zip+arity.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observables/Zip.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/ObserverType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observers/ObserverBase.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Reactive.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/RxMutableBox.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/SchedulerType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/Completable+AndThen.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/Completable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/Maybe.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/ObservableType+PrimitiveSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence+Zip+arity.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxSwift/RxSwift/Traits/Single.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/AtomicInt.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/DataStructures/Bag.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/DataStructures/InfiniteSequence.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/DataStructures/PriorityQueue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/DataStructures/Queue.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/DispatchQueue+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/Platform.Darwin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/Platform.Linux.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/Platform/RecursiveLock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Any+Equatable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/ColdObservable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Deprecated.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Event+Equatable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/HotObservable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Recorded+Event.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Recorded.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/RxTest.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Schedulers/TestScheduler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Schedulers/TestSchedulerVirtualTimeConverter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/Subscription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/TestableObservable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/TestableObserver.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/RxTest/RxTest/XCTest+Rx.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChain/Pods-MemoryChain.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/Pods-MemoryChainTests/Pods-MemoryChainTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxBlocking/RxBlocking.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxCocoa/RxCocoa.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxRelay/RxRelay.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxSwift/RxSwift.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemoryChain/Pods/Target Support Files/RxTest/RxTest.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$I设计师 _ 深圳8-10K】刘娟 12年.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$I设计师 _ 深圳8-10K】周慧 3年.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$I设计师 _ 深圳8-10K】徐莹娟 4年.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$I设计师 _ 深圳8-10K】袁红 3年.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$file.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$file.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$业变更申请书.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$变更成为一个人的承诺书.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$有限公司章程.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$李路遥快闪简历.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$章程修正案.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$股东收股权转让通知书.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$股权转让协议.doc" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/changed_file.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resize_photo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/watermark_photo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_information.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby_grep.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv_to_xml.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fix_filename.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1332">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kill_progress.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/banish.rb" />
+        <option value="$PROJECT_DIR$/file.rb" />
+        <option value="$PROJECT_DIR$/redirect_stdout.rb" />
+        <option value="$PROJECT_DIR$/find_file.rb" />
+        <option value="$PROJECT_DIR$/find_duplicates.rb" />
+        <option value="$PROJECT_DIR$/join_file.rb" />
+        <option value="$PROJECT_DIR$/compress.rb" />
+        <option value="$PROJECT_DIR$/file_split.rb" />
+        <option value="$PROJECT_DIR$/changed_file.rb" />
+        <option value="$PROJECT_DIR$/resize_photo.rb" />
+        <option value="$PROJECT_DIR$/watermark_photo.rb" />
+        <option value="$PROJECT_DIR$/image_information.rb" />
+        <option value="$PROJECT_DIR$/ruby_grep.rb" />
+        <option value="$PROJECT_DIR$/csv.rb" />
+        <option value="$PROJECT_DIR$/csv_to_xml.rb" />
+        <option value="$PROJECT_DIR$/fix_filename.rb" />
+        <option value="$PROJECT_DIR$/kill_progress.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="GHINmKRW" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="202" />
+    <option name="y" value="283" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="join_file" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="untitled" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/join_file.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.join_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b47c5379-422e-4477-b29b-06ef11954469" name="Default Changelist" comment="" />
+      <created>1565855699370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565855699370</updated>
+      <workItem from="1565855703844" duration="4126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="202" y="283" width="1280" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32861635" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled@join_file.rcov" NAME="join_file Coverage Results" MODIFIED="1565859487881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/redirect_stdout.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_duplicates.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/join_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compress.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_split.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changed_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resize_photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watermark_photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_information.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby_grep.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_to_xml.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fix_filename.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banish.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kill_progress.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
